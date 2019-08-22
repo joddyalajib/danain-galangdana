@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(adli-wahid-9SgJVeNwWds-unsplash.jpg);
+    opacity: 0.75;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 520px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 70px;
+}
+  
+li {
+    float: left;
+    padding: 5px;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    border-radius: 30px;
+}
+li.different-li {
+    float: right;
+    border-radius: 30px;
+    border-color: rgb(215, 162, 231);
+}
+.logo-danain {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-top: 0;
+    margin-left: 20px;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: rgb(215, 162, 231);
+    transition-duration: 0.4s;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headline {
+    top: 10%;
+    position:absolute ;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 385px;
+}
+
+
+.column2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 25px 50px;
+}
+
+.column3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 25px 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px; 
+}
+
+.button:hover {
+    background-color: white;
+    color: green;
+}
+
+.footer {
+    text-align: center;
+    background: #263238;
+    color: grey;
+    font-size: 10px;
+    padding: 20px;
+}

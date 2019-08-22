@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(adli-wahid-9SgJVeNwWds-unsplash.jpg);
+    opacity: 0.75;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.active{
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px gray; 
+ }
+
+.main-nav li a:hover{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: 1px solid white;    
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headline {
+    top: 10%;
+    position:absolute ;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 150px;
+}
